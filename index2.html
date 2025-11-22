@@ -1,0 +1,247 @@
+<!-- ====== STYLING ====== -->
+<style>
+  body {
+    background: #f6f8fb;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .about-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  }
+
+  .about-section h1 {
+    font-size: 36px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about-section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .mission-box {
+    background: #eef4ff;
+    border-left: 5px solid #4a90e2;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+
+  .mission-box h3 {
+    margin: 0 0 10px;
+    color: #1e3a8a;
+  }
+
+  .team-section {
+    margin-top: 50px;
+  }
+
+  .team-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .team-section h2::after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #4a90e2;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+
+  .group-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a90e2;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .team-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+    padding: 25px 15px;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+
+  .team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 3px solid #4a90e2;
+    box-shadow: 0 0 10px rgba(74,144,226,0.3);
+  }
+
+  .team-card h4 {
+    margin: 8px 0 4px;
+    font-size: 16px;
+    color: #222;
+  }
+
+  .team-card span {
+    font-size: 13px;
+    color: #777;
+  }
+
+  .social-icons {
+    margin-top: 12px;
+  }
+
+  .social-icons a {
+    margin: 0 6px;
+    color: #555;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #4a90e2;
+  }
+
+  @media (max-width: 768px) {
+    .team-card {
+      width: 45%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .team-card {
+      width: 90%;
+    }
+  }
+</style>
+
+<!-- ====== CONTENT ====== -->
+<div class="about-section">
+  <h1>Tentang Kami</h1>
+  <p>
+    <strong>Dialektika</strong> adalah platform media kampus yang dikelola oleh mahasiswa untuk menyuarakan opini, membagikan informasi, serta menjadi wadah kreativitas. 
+    Kami percaya bahwa kekuatan kata dan tulisan dapat menjadi alat perubahan yang kuat di lingkungan kampus maupun masyarakat luas.
+  </p>
+
+  <div class="mission-box">
+    <h3>Visi & Misi Kami</h3>
+    <p>
+      Menjadi media kampus yang kritis, kreatif, dan inspiratif dalam mengawal isu-isu kampus dan sosial. 
+      Misi kami adalah membentuk ruang dialog terbuka, menumbuhkan budaya literasi, dan mendorong partisipasi mahasiswa dalam isu strategis.
+    </p>
+  </div>
+
+  <div class="team-section">
+    <h2>Struktur & Tim Kami</h2>
+
+    <!-- PIMPINAN -->
+    <div class="group-title">Pimpinan</div>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://api.dicebear.com/9.x/micah/svg?seed=Brian" alt="avatar" />
+        <h4>Siti Maryam</h4>
+        <span>Pimpinan Umum</span>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/6281234567890"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="https://api.dicebear.com/9.x/micah/svg?seed=Destiny" alt="avatar" />
+        <h4>Akmal Rizka Wardana</h4>
+        <span>Wakil Ketua</span>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/6281234567890"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEKRETARIS & BENDAHARA -->
+    <div class="group-title">Sekretaris & Bendahara</div>
+    <div class="team-grid">
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Hidayat&gender=male"><h4>Nur Hidayat</h4><span>Sekretaris 1</span><div class="social-icons"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Atina&gender=female"><h4>Atina Karimatun Masy'ndah</h4><span>Sekretaris 2</span><div class="social-icons"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Fahla&gender=female"><h4>Fahla Dwi Maifal</h4><span>Bendahara</span><div class="social-icons"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div></div>
+    </div>
+
+    <!-- REDAKSI -->
+    <div class="group-title">Bidang Redaksi</div>
+    <div class="team-grid">
+      <div class="team-card"><img
+  src="https://api.dicebear.com/9.x/adventurer/svg?seed=Brian"
+  alt="avatar" /><h4>Ma'ruf Muchlisin</h4><span>Pimpinan Redaksi</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Windi&gender=female"><h4>Windi Apriliyanti</h4><span>Redpel Majalah</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Anisa&gender=female"><h4>Anisa Khoerul Khajah</h4><span>Redpel Majalah</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Nicky&gender=female"><h4>Nicky Atikah Zhalifunnas</h4><span>Redpel Tabloid</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Avery"><h4>Isroful Jannah</h4><span>Redpel Tabloid</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Mahdiyahtul&gender=female"><h4>Mahdiyahtul Labibah</h4><span>Redpel Online</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Eva&gender=female"><h4>Eva Nur Aliza</h4><span>Redpel Online</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Sangidan&gender=male"><h4>Sangidan Amrulloh</h4><span>Redpel Online</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Fajar&gender=male"><h4>Muhammad Fajar Ismail</h4><span>Redpel Artistik</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Arviati&gender=female"><h4>Arviati</h4><span>Redpel Artistik</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Hayati&gender=female"><h4>Nur Hayati</h4><span>Redpel Artistik</span></div>
+    </div>
+
+    <!-- HRD -->
+    <div class="group-title">Divisi HRD</div>
+    <div class="team-grid">
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Jahid&gender=male"><h4>Jahid Mua'rif</h4><span>Pimpinan HRD</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Sulaiman&gender=male"><h4>Sulaiman Faiq</h4><span>Kaderisasi</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Rizal&gender=male"><h4>Muhammad Rizal Subkhi</h4><span>Kaderisasi</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Uzlati&gender=female"><h4>Uzlati Hasbiya Novaria</h4><span>Kaderisasi</span></div>
+    </div>
+
+    <!-- RISET -->
+    <div class="group-title">Divisi Riset</div>
+    <div class="team-grid">
+      <div class="team-card"><img
+  src="https://api.dicebear.com/9.x/adventurer/svg?seed=Brian"
+  alt="avatar" /><h4>Robik Gianto</h4><span>Riset</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Laeli&gender=female"><h4>Laeli Kinayatul Khasanah</h4><span>Riset</span></div>
+    </div>
+
+    <!-- PERUSAHAAN -->
+    <div class="group-title">Divisi Perusahaan</div>
+    <div class="team-grid">
+      <div class="team-card"><img
+  src="https://api.dicebear.com/9.x/adventurer/svg?seed=Brian"
+  alt="avatar" /><h4>Faqih</h4><span>Pimpinan Perusahaan</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Azka&gender=female"><h4>Azka Salsabila Auliana</h4><span>Sponsorship</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Chamzah&gender=male"><h4>Ahmad Chamzah</h4><span>Sponsorship</span></div>
+      <div class="team-card"><img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Royani&gender=male"><h4>Ahmad Royani</h4><span>Sponsorship</span></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />

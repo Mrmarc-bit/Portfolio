@@ -1,4 +1,7 @@
 <!-- Header Animasi -->
+
+![Maruf Muchlisin] (images/me.jpg)
+
 <p align="center">
   <img src="images/me.jpg" alt="Me Ma’ruf" style="border-radius: 20px; box-shadow: 0px 0px 10px rgba(0,120,255,0.4); padding: 5px; />
 </p>
